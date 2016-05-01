@@ -43,7 +43,7 @@ class Downloader(object):
             }],
             'logger': Logger(),
             'progress_hooks': [Downloader.hook],
-            'outtmpl': '~/youtube-dl-tests/%(playlist)s/%(title)s.%(ext)s',
+            'outtmpl': '~/Music/youtube-dl/%(playlist)s/%(title)s.%(ext)s',
             'sleep_interval': 10,
             'download_archive': 'downloaded_songs',
             'ignoreerrors': True
